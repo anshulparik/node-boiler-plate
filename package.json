@@ -3,16 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "prepare": "husky",
-    "test": "node test.js"
+    "dist": "npx tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "Anshul Parik",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/node": "^22.5.5",
     "husky": "^9.1.6",
-    "lint-staged": "^15.2.10"
+    "lint-staged": "^15.2.10",
+    "nodemon": "^3.1.5",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.2"
   }
 }
