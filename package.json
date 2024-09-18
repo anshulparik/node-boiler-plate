@@ -1,0 +1,12 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Anshul Parik",
+  "license": "ISC",
+  "description": ""
+}
